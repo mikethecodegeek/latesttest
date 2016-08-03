@@ -1,7 +1,7 @@
 
 'use strict';
 
-var app = angular.module('angularApp', ['ui.router', 'satellizer', 'ngPassword', 'ngAnimate']);
+var app = angular.module('angularApp', ['ui.router', 'satellizer', 'ngAnimate']);
 
 app.config(function($stateProvider, $urlRouterProvider) {
 
